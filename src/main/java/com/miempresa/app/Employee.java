@@ -18,6 +18,15 @@ public class Employee {
 	public int getYears() {
 		return years;
 	}
+	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setYears(int years) {
+		this.years = years;
+	}
 
 	@Override
 	public String toString() {

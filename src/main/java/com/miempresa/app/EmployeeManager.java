@@ -19,7 +19,7 @@ public class EmployeeManager {
     public void printEmployees() {
         System.out.println("Lista de empleados:");
         for (Employee e : employees) {
-            System.out.println(e.getName() + ", Años en la empresa: " + e.getYears());
+            System.out.println("Nombre: " + e.getName() + ", Años en la empresa: " + e.getYears());
         }
     }
 }
